@@ -1,5 +1,6 @@
 import './FooterStyle.css'
 import { FaHome,FaPhone,FaMailBulk,FaFacebook,FaTwitter,FaLinkedin,FaInstagram } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 import React from 'react'
 
@@ -37,10 +38,10 @@ const Footer = () => {
                 I'm Vikas Kumar.As a Software Engineer, I have a strong foundation in C++, Java, and a rich skill set spanning front-end development (HTML, CSS, JavaScript, React.js, Redux, Bootstrap, Ejs) and back-end technologies (Node.js, Express.js, MongoDB). What sets me apart is my passion for problem-solving, reflected in my ability to tackle and solve more than 600 challenging problems on platforms like LeetCode and GeeksforGeeks.
                 </p>
                 <div className='social'>
-                <FaFacebook size={30} style={{color:"#fff",marginRight:"1rem"}}/>
-                <FaInstagram size={30} style={{color:"#fff",marginRight:"1rem"}}/>
-                <FaLinkedin size={30} style={{color:"#fff",marginRight:"1rem"}}/>
-                <FaTwitter size={30} style={{color:"#fff",marginRight:"1rem"}}/>
+                <Link to="https://www.facebook.com/vikash.bihari.984349/"><FaFacebook size={30} style={{color:"#fff",marginRight:"1rem"}}/></Link>
+                <Link to="https://www.instagram.com/vikasbihari91/"><FaInstagram size={30} style={{color:"#fff",marginRight:"1rem"}}/></Link>
+                <Link to="https://www.linkedin.com/in/vikas-kumar-992584253/"><FaLinkedin size={30} style={{color:"#fff",marginRight:"1rem"}}/></Link>
+                <Link to="https://twitter.com/vikasBihari91"><FaTwitter size={30} style={{color:"#fff",marginRight:"1rem"}}/></Link>
                 
                 </div>
             </div>
